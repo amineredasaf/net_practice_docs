@@ -94,7 +94,8 @@ Tags: Network, School
             
             <aside>
             💡 for example, if we take random IPv6 Addresses like:
-            **`f145:4455:447e:fc46:06a0:a1d3:b03b:c24f`** his binary would be :
+            f145:4455:447e:fc46:06a0:a1d3:b03b:c24f
+            his binary would be :
             `1111000101000101 0100010001010101 0100010001111110 1111110001000110 0000011010100000 1010000111010011 1011000000111011 1100001001001111`
             
             </aside>
