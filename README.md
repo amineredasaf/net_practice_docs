@@ -6,10 +6,7 @@ Tags: Network, School
 > Project Status:  in progress.
 > 
 
-<aside>
-💡 Net-practice is a school project about networking, where we have to configure small-scale networks, the project has 10 levels, and every level is more complicated than the other, this project is a system Administration related exercise.
-
-</aside>
+Net-practice is a school project about networking, where we have to configure small-scale networks, the project has 10 levels, and every level is more complicated than the other, this project is a system Administration related exercise.
 
 ---
 
@@ -92,12 +89,17 @@ Tags: Network, School
             
             The possible character is from `0 to 9` and from `A to F`
             
-            <aside>
-            💡 for example, if we take random IPv6 Addresses like:
-            **`f145:4455:447e:fc46:06a0:a1d3:b03b:c24f`** his binary would be :
+            for example, if we take random IPv6 Addresses like:
+            
+            ---
+            
+            **`f145:4455:447e:fc46:06a0:a1d3:b03b:c24f`** 
+            
+            his binary would be :
+            
             `1111000101000101 0100010001010101 0100010001111110 1111110001000110 0000011010100000 1010000111010011 1011000000111011 1100001001001111`
             
-            </aside>
+            ---
             
             now how we did do this?
             
@@ -131,5 +133,6 @@ Tags: Network, School
                     
                     ![https://www.gifcen.com/wp-content/uploads/2022/02/sleepy-gif-5.gif](https://www.gifcen.com/wp-content/uploads/2022/02/sleepy-gif-5.gif)
                     
+                    - [A good tutorial about IPv4 and IPv6](https://www.youtube.com/watch?v=ThdO9beHhpA&ab_channel=PowerCertAnimatedVideos)
     
     ---
