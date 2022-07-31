@@ -93,7 +93,7 @@ Tags: Network, School
             The possible character is from `0 to 9` and from `A to F`
             
             <aside>
-            💡 for example, if we take random IPv6 Addresses like:
+            for example, if we take random IPv6 Addresses like:
     
             f145:4455:447e:fc46:06a0:a1d3:b03b:c24f
     
