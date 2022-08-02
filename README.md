@@ -20,7 +20,7 @@ Net-practice is a school project about networking, where we have to configure sm
 - [But What exactly is TCP/IP?](https://github.com/amineredasaf/net_practice_docs#but-what-is-exactly-is-tcpip)
 - [IPv4 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
 - [IPv6 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [What is a subnet Mask?](https://github.com/amineredasaf/what-is-subnet-mask)
+- [What is a subnet Mask?](https://github.com/amineredasaf/what-is-a-subnet-mask)
 
 ---
 
