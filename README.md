@@ -14,13 +14,13 @@ Net-practice is a school project about networking, where we have to configure sm
 
 ### **content:**
 
-- [What is Networking?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [Types of networking](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [What is TCP/IP?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [But What exactly is TCP/IP?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
+- [What is Networking?](https://github.com/amineredasaf/net_practice_docs#what-is-networking)
+- [Types of networking](https://github.com/amineredasaf/net_practice_docs#types-of-networking)
+- [What is TCP/IP?](https://github.com/amineredasaf/net_practice_docs#what-is-tcpip)
+- [But What exactly is TCP/IP?](https://github.com/amineredasaf/net_practice_docs#but-what-is-exactly-is-tcpip)
 - [IPv4 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
 - [IPv6 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [What is a subnet Mask?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
+- [What is a subnet Mask?](https://github.com/amineredasaf/what-is-subnet-mask)
 
 ---
 
