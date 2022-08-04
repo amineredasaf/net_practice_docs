@@ -167,3 +167,16 @@ Net-practice is a school project about networking, where we have to configure sm
     ### What is Subnetting?
     
     - taking a network and dividing it into sub-networks, by accepting bits from the host part IP address  and using these bits to assign a number of smaller sub-networks
+    
+    ### What is a Switch?
+    
+    - switches are a device that connects multiple other devices or any networking device using ethernet, through a switch port, switches are usually found in a larger networks
+    - network switch or switching hub is a device that receives incoming data packets and redirects them to their destination on a local area network
+    
+    ### What is the difference between switch and hub?
+    
+    - hub and switch are networking hardware that connects devices on a computer network to establish a LAN
+    - the switch has a memory but the hub doesn't
+    - the switch stores MAC address table
+        
+        ![Screen Shot 2022-08-04 at 4.26.08 PM.png](utils/Screen_Shot_2022-08-04_at_4.26.08_PM.png)
