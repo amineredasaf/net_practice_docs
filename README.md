@@ -14,13 +14,13 @@ Net-practice is a school project about networking, where we have to configure sm
 
 ### **content:**
 
-- [What is Networking?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [Types of networking](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [What is TCP/IP?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [But What exactly is TCP/IP?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
+- [What is Networking?](#what-is-networking)
+- [Types of networking](#types-of-networking)
+- [What is TCP/IP?](#what-is-tcpip)
+- [But What exactly is TCP/IP?](#but-what-is-exactly-is-tcpip)
 - [IPv4 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
 - [IPv6 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [What is a subnet Mask?](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
+- [What is a subnet Mask?](#what-is-a-subnet-mask)
 
 ---
 
