@@ -14,13 +14,16 @@ Net-practice is a school project about networking, where we have to configure sm
 
 ### **content:**
 
-- [What is Networking?](#what-is-networking)
-- [Types of networking](#types-of-networking)
-- [What is TCP/IP?](#what-is-tcpip)
-- [But What exactly is TCP/IP?](#but-what-is-exactly-is-tcpip)
-- [IPv4 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [IPv6 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)
-- [What is a subnet Mask?](#what-is-a-subnet-mask)
+- **[Best Networking Resources](#best-networking-resources)**
+- **[What is Networking?](#what-is-networking)**
+- **[Types of networking](#types-of-networking)**
+- **[What is TCP/IP?](#what-is-tcpip)**
+- **[But What exactly is TCP/IP?](#but-what-is-exactly-is-tcpip)**
+- **[IPv4 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)**
+- **[IPv6 binary conversion](https://www.notion.so/Net-Practice-d62d9f9ad0994e9a8ad459476b143a43)**
+- **[What is a subnet Mask?](#what-is-a-subnet-mask)**
+- **[Classes of IPv4 Addresses](#classes-of-ipv4-addresses)**
+- **[subnetting is simple from Sunny](#subnetting-is-simple-from-sunny)**
 
 ---
 
@@ -46,6 +49,8 @@ Net-practice is a school project about networking, where we have to configure sm
 
 ---
 
+### IPv4 binary conversion:
+
 - IPv4: is the current version of the IP address, it has a 32-bit numeric address written as four numbers separated by dots called octets, the number range for every octet is from 0 to 255, this address version can produce over 4 billion unique addresses, computers and networks don’t read IP addresses in his standard numeric format, they only understand numbers in a binary format.
     - IPv4 binary conversion
         - Here is the 8-bit chart that we use to get a possible valid IP address
@@ -67,42 +72,46 @@ Net-practice is a school project about networking, where we have to configure sm
         - We take IP address 134.2.101.245 to convert to binary we start with the first part “134”
             - The Question: Can I subtract “128” from “134” → YES! so put “1” to 128
                 
-                ![Screen Shot 2022-07-31 at 2.59.06 PM.png](utils/Screen_Shot_2022-07-31_at_2.59.06_PM.png)
+                ![1.png](utils/1.png)
                 
             - The Question: Can I subtract “64” from “6” → NO! so put “0” to 64
                 
-                ![Screen Shot 2022-07-31 at 4.05.53 PM.png](utils/Screen_Shot_2022-07-31_at_4.05.53_PM.png)
+                ![2.png](utils/2.png)
                 
             - The Question: Can I subtract “32” from “6” → NO! so put “0” to 32
                 
-                ![Screen Shot 2022-07-31 at 4.07.01 PM.png](utils/Screen_Shot_2022-07-31_at_4.07.01_PM.png)
+                ![3.png](utils/3.png)
                 
             - The Question: Can I subtract “16” from “6” → NO! so put “0” to 16
                 
-                ![Screen Shot 2022-07-31 at 4.07.57 PM.png](utils/Screen_Shot_2022-07-31_at_4.07.57_PM.png)
+                ![4.png](utils/4.png)
                 
             - The Question: Can I subtract “8” from “6” → NO! so put “0” to 8
                 
-                ![Screen Shot 2022-07-31 at 4.10.11 PM.png](utils/Screen_Shot_2022-07-31_at_4.10.11_PM.png)
+                ![5.png](utils/5.png)
                 
             - The Question: Can I subtract “4” from “6” → Yes! so put “1” to 4
                 
-                ![Screen Shot 2022-07-31 at 4.14.05 PM.png](utils/Screen_Shot_2022-07-31_at_4.14.05_PM.png)
+                ![6.png](utils/6.png)
                 
             - The Question: Can I subtract “2” from “2” → NO! so put “1” to 2
                 
-                ![Screen Shot 2022-07-31 at 4.23.21 PM.png](utils/Screen_Shot_2022-07-31_at_4.23.21_PM.png)
+                ![7.png](utils/7.png)
                 
             - The Question: Can I subtract “1” from “0” → NO! so put “.0” to 1
                 
-                ![Screen Shot 2022-07-31 at 4.22.50 PM.png](utils/Screen_Shot_2022-07-31_at_4.22.50_PM.png)
+                ![8.png](utils/8.png)
                 
             - The first part of The IP address 134 is 10000110 in binary so we repeat the same way with the other parts of The IP address.
                 - [Source for more Explanation](https://petri.com/csc_convert_ip_address_from_decimal_to_binary/)
     
     ---
     
-- IPv6: is the next generation of IP addresses, it has a 128-bit hexadecimal address, with this type of address IPv6 can produce over 340 undecillion addresses, it is made up of 8 sets of 16 bits, the 8 sets separated by a colon
+
+### IPv6 binary conversion:
+
+- IPv6: is the next generation of IP addresses, it has a 128-bit hexadecimal address, with
+- this type of address IPv6 can produce over 340 undecillion addresses, it is made up of 8 sets of 16 bits, the 8 sets separated by a colon
     - IPv6 binary conversion
         - Here is the 4-bit chart that we use to get a possible valid IP address
             
@@ -130,25 +139,25 @@ Net-practice is a school project about networking, where we have to configure sm
             - Now I can't break and convert all sets of this IP Address because of three things Version 6 of IP addresses is too long and  I'm lazy and finally their tons of websites and applications that can do that for us. but for knowledge, we gonna convert the first set only and you can repeat the same way with all other sets:
                 - The first set is **`f145` so let's start with the first 4-bits,`f`** equal to $15$ in hexadecimal which means:
                     
-                    ![Screen Shot 2022-07-31 at 6.28.39 PM.png](utils/Screen_Shot_2022-07-31_at_6.28.39_PM.png)
+                    ![a.png](utils/a.png)
                     
                     ~ so `**f**` is `1111`in binary
                     
                 - Now let go to the second 4-bits, `**1` is $1$ in hexadecimal, which means xD:**
                     
-                    ![Screen Shot 2022-07-31 at 6.31.55 PM.png](utils/Screen_Shot_2022-07-31_at_6.31.55_PM.png)
+                    ![b.png](utils/b.png)
                     
                     ~ so **`1`** is `0001` in binary
                     
                 - Now let go to the 3rd 4-bits, **`4` is $4$ in hexadecimal, which means xD xD:**
                     
-                    ![Screen Shot 2022-07-31 at 6.34.44 PM.png](utils/Screen_Shot_2022-07-31_at_6.34.44_PM.png)
+                    ![c.png](utils/c.png)
                     
                     ~ so **`4`** is `0100` in binary
                     
                 - Now let go to the last 4-bits in this set, **`5` is $5$ in hexadecimal, which means -_-:**
                     
-                    ![Screen Shot 2022-07-31 at 6.37.05 PM.png](utils/Screen_Shot_2022-07-31_at_6.37.05_PM.png)
+                    ![d.png](utils/d.png)
                     
                     ~ so **`5`** is `0101` in binary
                     
@@ -170,13 +179,38 @@ Net-practice is a school project about networking, where we have to configure sm
     
     ### What is a Switch?
     
-    - switches are a device that connects multiple other devices or any networking device using ethernet, through a switch port, switches are usually found in a larger networks
-    - network switch or switching hub is a device that receives incoming data packets and redirects them to their destination on a local area network
+    - switches are a device that connects multiple other devices or any networking device using ethernet, through a switch port, switches are usually found in larger networks
+    - a network switch or switching hub is a device that receives incoming data packets and redirects them to their destination on a local area network
     
     ### What is the difference between switch and hub?
     
     - hub and switch are networking hardware that connects devices on a computer network to establish a LAN
     - the switch has a memory but the hub doesn't
-    - the switch stores MAC address table
+    - the switch stores the MAC address table
         
-        ![Screen Shot 2022-08-04 at 4.26.08 PM.png](utils/Screen_Shot_2022-08-04_at_4.26.08_PM.png)
+        ![switch and hub.png](utils/switch_and_hub.png)
+        
+    
+    ### Classful Address:
+    
+    - Classful addressing is a way to divide IPv4 Addresses into five groups named Class A, B, C, D, and E.
+    - The Classful addressing was superseded by Classless addressing in order to reduce address depletion.
+    
+    ### Classes of IPv4 Addresses:
+    
+    - I recommend this video for you: **[Tricks to five classes of IPv4](https://www.youtube.com/watch?v=vcArZIAmnYQ&list=PLSNNzog5eydt_plAtt3k_LYuIXrAS4aDZ&index=1&t=4s&ab_channel=SunnyClassroom)**
+    
+    ![IPv4 Classes.png](utils/IPv4_Classes.png)
+    
+    ### subnetting is simple from Sunny:
+    
+    - full video [here](https://www.youtube.com/watch?v=ecCuyq-Wprc&list=PLSNNzog5eydt_plAtt3k_LYuIXrAS4aDZ&index=7&ab_channel=SunnyClassroom).
+    
+    ![subnetting is simple.png](utils/subnetting_is_simple.png)
+    
+    ---
+    
+    ### Best Networking Resources:
+    
+    - [Sunny Classroom: Full Playlist that covers all you need for this project and more.](https://www.youtube.com/playlist?list=PLSNNzog5eydt_plAtt3k_LYuIXrAS4aDZ)
+    - [Tutorialspoint: Classful Vs Classless Addressing](https://www.tutorialspoint.com/classful-vs-classless-addressing#:~:text=Classful%20addressing%20is%20a%20technique,to%20reduce%20IP%20address%20depletion.)
