@@ -214,3 +214,5 @@ Net-practice is a school project about networking, where we have to configure sm
     
     - [Sunny Classroom: Full Playlist that covers all you need for this project and more.](https://www.youtube.com/playlist?list=PLSNNzog5eydt_plAtt3k_LYuIXrAS4aDZ)
     - [Tutorialspoint: Classful Vs Classless Addressing](https://www.tutorialspoint.com/classful-vs-classless-addressing#:~:text=Classful%20addressing%20is%20a%20technique,to%20reduce%20IP%20address%20depletion.)
+    - [Packet Traveling - How Packets Move Through a Network](https://www.youtube.com/watch?v=rYodcvhh7b8&ab_channel=PracticalNetworking)
+    - [How Data moves through the Internet - Networking Fundamentals](https://www.youtube.com/watch?v=YJGGYKAV4pA&ab_channel=PracticalNetworking)
