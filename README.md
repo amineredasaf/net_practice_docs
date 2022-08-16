@@ -209,6 +209,13 @@ Net-practice is a school project about networking, where we have to configure sm
     ![subnetting is simple.png](utils/subnetting_is_simple.png)
     
     ---
+
+    ### TIPS:
+    
+    - you can use  Packet Tracer Application to dive deep into networking like i did.
+    - you can install it through Managed Software Center (MSC) if you’re a 42 or 1337 student or ask your local staff about it
+
+    ---
     
     ### Best Networking Resources:
     
